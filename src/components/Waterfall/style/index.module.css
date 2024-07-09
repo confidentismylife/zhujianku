@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .item {
+  display: block;
+  width: 100px;
+  object-fit: contain;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+}
